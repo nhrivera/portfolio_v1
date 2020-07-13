@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import $ from "jquery";
+// import Preloader from "./Components/Preloader";
+import Navigation from "./Components/Navigation";
+import Home from "./Components/Home";
+import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Social from "./Components/Social";
 
-function App() {
+const App = () => {
+  $(document).ready(function () {
+    $("a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        let hash = this.hash;
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          0,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <Home />
+      <AboutMe />
+      <Projects />
+      <Contact />
+      <Social />
     </div>
   );
-}
+};
 
 export default App;

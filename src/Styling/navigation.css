@@ -1,0 +1,46 @@
+.navContainer {
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  display: block;
+  position: fixed;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  float: left;
+  margin-left: 25px;
+}
+
+.name a {
+  text-decoration: none;
+  color: #f28599;
+  font-weight: 200;
+}
+
+.name a:hover {
+  color: #c8cbd4;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  float: right;
+  margin-right: 25px;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #f28599;
+  font-weight: 200;
+  margin-right: 3vh;
+}
+
+.tabs a:hover {
+  color: #c8cbd4;
+}

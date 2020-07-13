@@ -1,0 +1,139 @@
+.homeComponent {
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.homeContainer {
+  text-align: left;
+  display: inline-block;
+  top: 34vh;
+  left: 66vh;
+  position: relative;
+  width: 55vh;
+}
+.intro1 {
+  color: transparent;
+  font-size: 1.5vh;
+  margin: 0;
+  cursor: default;
+
+  animation: fadeIn ease 2s forwards 1;
+  -webkit-animation: fadeIn ease 2s forwards 1;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #f28599;
+  }
+}
+
+.intro2 {
+  color: transparent;
+  font-size: 6vh;
+  margin: 0;
+  font-weight: bolder;
+  cursor: default;
+
+  animation: fadeInH1 ease 2s forwards 1;
+  -webkit-animation: fadeInH1 ease 2s forwards 1;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeInH1 ease 2s;
+  animation-delay: 2s;
+}
+@keyframes fadeInH1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #c8cbd4;
+  }
+}
+
+.intro3 {
+  color: transparent;
+  margin: 0;
+  font-weight: bolder;
+  cursor: default;
+
+  animation: fadeInH2 ease 2s forwards 1;
+  -webkit-animation: fadeInH2 ease 2s forwards 1;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeInH2 ease 2s;
+  animation-delay: 4s;
+}
+@keyframes fadeInH2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #9e91f2;
+  }
+}
+
+.shortBio {
+  color: transparent;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  cursor: default;
+
+  animation: fadeIn3 ease 2s forwards 1;
+  -webkit-animation: fadeIn3 ease 2s forwards 1;
+  -moz-animation: fadeIn3 ease 2s;
+  -o-animation: fadeIn3 ease 2s;
+  -ms-animation: fadeIn3 ease 2s;
+  animation-delay: 6s;
+}
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #9e91f2;
+  }
+}
+
+.readMore {
+  padding: 10px;
+
+  color: transparent;
+  transition: all 0.2s ease-in-out;
+
+  animation: fadeIn4 ease 2s forwards 1;
+  -webkit-animation: fadeIn4 ease 2s forwards 1;
+  -moz-animation: fadeIn4 ease 2s;
+  -o-animation: fadeIn4 ease 2s;
+  -ms-animation: fadeIn4 ease 2s;
+  animation-delay: 6s;
+}
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #f28599;
+    border: solid 1px #f28599;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+}

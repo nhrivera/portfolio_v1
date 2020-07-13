@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+}
+
+#circle {
+  stroke: white;
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+}
+
+#circle:hover {
+  animation: animate-circle 2s linear forwards;
+}
+@keyframes animate-circle {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 900;
+  }
+  80% {
+    stroke-dashoffset: 1800;
+    stroke: transparent;
+  }
+  80% {
+    stroke-dashoffset: 1800;
+    stroke: white;
+  }
+}
+#greater {
+  fill: white;
+}
+
+#less {
+  fill: white;
+}
+
+#lightning {
+  fill: white;
+}

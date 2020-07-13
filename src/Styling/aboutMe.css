@@ -1,0 +1,53 @@
+.aboutMeComponent {
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+
+  top: 99vh;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 55vh 55vh;
+  grid-template-rows: 10vh 10vh;
+  column-gap: 15px;
+  row-gap: 5px;
+  text-align: left;
+  top: 30vh;
+  left: 50vh;
+  position: relative;
+  width: 55vh;
+}
+
+.aboutMe {
+  color: #c8cbd4;
+  font-size: 6vh;
+  margin: 0;
+  font-weight: bolder;
+  cursor: default;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.bio {
+  color: #9e91f2;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  cursor: default;
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+img {
+  height: 45vh;
+  width: auto;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  border: #9e91f2 4px solid;
+}
