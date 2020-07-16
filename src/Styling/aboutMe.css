@@ -20,7 +20,7 @@
   row-gap: 5px;
   text-align: left;
   top: 30vh;
-  left: 50vh;
+  left: 46vh;
   position: relative;
   width: 55vh;
 }
@@ -44,7 +44,7 @@
   grid-column: 1/2;
   grid-row: 2/2;
 }
-img {
+.headshot {
   height: 45vh;
   width: auto;
   grid-column: 2/2;

@@ -24,7 +24,8 @@
   padding: 16px;
   font-size: 16px;
   cursor: pointer;
-  width: 100vh;
+  width: 57vw;
+  outline: none;
 }
 
 /* Dropdown button on hover & focus */
@@ -40,7 +41,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100vh;
+  width: 57vw;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -56,7 +57,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #f28599;
+  color: #ddd;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -64,10 +65,45 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  color: #ddd;
+  color: #f28599;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-  display: block;
+  display: grid;
+  grid-template-columns: 25vw 42vw;
+  column-gap: 15px;
+  row-gap: 0;
+}
+
+.description {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 20px;
+  text-align: left;
+  color: #9e91f2;
+}
+
+.projectImg {
+  width: 28vw;
+  height: auto;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 15px;
+}
+
+.url {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.hide {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display: none;
 }
