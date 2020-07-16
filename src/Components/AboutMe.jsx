@@ -16,7 +16,7 @@ const AboutMe = () => {
           Express, React, Node.js, SQL, Bootstrap, and more as I continually
           learn new concepts and technologies day by day.
         </p>
-        <img src={me} alt="Nestor Rivera"></img>
+        <img src={me} alt="Nestor Rivera" className="headshot"></img>
       </div>
     </div>
   );
