@@ -1,139 +1,286 @@
-.homeComponent {
-  background-color: transparent;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-
-  top: 0;
-  left: 0;
-
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-align: start;
-}
-.homeContainer {
-  text-align: left;
-  display: inline-block;
-  top: 34vh;
-  left: 66vh;
-  position: relative;
-  width: 55vh;
-}
-.intro1 {
-  color: transparent;
-  font-size: 1.5vh;
-  margin: 0;
-  cursor: default;
-
-  animation: fadeIn ease 2s forwards 1;
-  -webkit-animation: fadeIn ease 2s forwards 1;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+    text-align: left;
+    display: inline-block;
+    top: 30vh;
+    left: 20vw;
+    position: relative;
+    width: 70vw;
   }
-  100% {
-    opacity: 1;
-    color: #f28599;
+
+  .intro1 {
+    color: transparent;
+    font-size: 1.5vh;
+    margin: 0;
+    cursor: default;
+
+    animation: fadeIn ease 2s forwards 1;
+    -webkit-animation: fadeIn ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #f28599;
+    }
+  }
+
+  .intro2 {
+    color: transparent;
+    font-size: 4vh;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+
+    animation: fadeInH1 ease 2s forwards 1;
+    -webkit-animation: fadeInH1 ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeInH1 ease 2s;
+    animation-delay: 2s;
+  }
+  @keyframes fadeInH1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #c8cbd4;
+    }
+  }
+
+  .intro3 {
+    color: transparent;
+    font-size: 2vh;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+
+    animation: fadeInH2 ease 2s forwards 1;
+    -webkit-animation: fadeInH2 ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeInH2 ease 2s;
+    animation-delay: 4s;
+  }
+  @keyframes fadeInH2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #9e91f2;
+    }
+  }
+
+  .shortBio {
+    color: transparent;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: default;
+    font-size: 1.5vh;
+
+    animation: fadeIn3 ease 2s forwards 1;
+    -webkit-animation: fadeIn3 ease 2s forwards 1;
+    -moz-animation: fadeIn3 ease 2s;
+    -o-animation: fadeIn3 ease 2s;
+    -ms-animation: fadeIn3 ease 2s;
+    animation-delay: 6s;
+  }
+  @keyframes fadeIn3 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #9e91f2;
+    }
+  }
+
+  .readMore {
+    padding: 10px;
+
+    color: transparent;
+    transition: all 0.2s ease-in-out;
+
+    animation: fadeIn4 ease 2s forwards 1;
+    -webkit-animation: fadeIn4 ease 2s forwards 1;
+    -moz-animation: fadeIn4 ease 2s;
+    -o-animation: fadeIn4 ease 2s;
+    -ms-animation: fadeIn4 ease 2s;
+    animation-delay: 6s;
+  }
+  @keyframes fadeIn4 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #f28599;
+      border: solid 1px #f28599;
+      text-decoration: none;
+      transform: scale(1.1);
+    }
+  }
+  .homeComponent {
+    background-color: transparent;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 95vw;
+    height: 100vh;
+    scroll-snap-align: start;
   }
 }
-
-.intro2 {
-  color: transparent;
-  font-size: 6vh;
-  margin: 0;
-  font-weight: bolder;
-  cursor: default;
-
-  animation: fadeInH1 ease 2s forwards 1;
-  -webkit-animation: fadeInH1 ease 2s forwards 1;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeInH1 ease 2s;
-  animation-delay: 2s;
-}
-@keyframes fadeInH1 {
-  0% {
-    opacity: 0;
+@media only screen and (min-width: 600px) {
+  .homeContainer {
+    text-align: left;
+    display: inline-block;
+    top: 34vh;
+    left: 66vh;
+    position: relative;
+    width: 55vh;
   }
-  100% {
-    opacity: 1;
-    color: #c8cbd4;
+
+  .intro1 {
+    color: transparent;
+    font-size: 1.5vh;
+    margin: 0;
+    cursor: default;
+
+    animation: fadeIn ease 2s forwards 1;
+    -webkit-animation: fadeIn ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
   }
-}
-
-.intro3 {
-  color: transparent;
-  margin: 0;
-  font-weight: bolder;
-  cursor: default;
-
-  animation: fadeInH2 ease 2s forwards 1;
-  -webkit-animation: fadeInH2 ease 2s forwards 1;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeInH2 ease 2s;
-  animation-delay: 4s;
-}
-@keyframes fadeInH2 {
-  0% {
-    opacity: 0;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #f28599;
+    }
   }
-  100% {
-    opacity: 1;
-    color: #9e91f2;
+
+  .intro2 {
+    color: transparent;
+    font-size: 6vh;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+
+    animation: fadeInH1 ease 2s forwards 1;
+    -webkit-animation: fadeInH1 ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeInH1 ease 2s;
+    animation-delay: 2s;
   }
-}
-
-.shortBio {
-  color: transparent;
-  margin-top: 14px;
-  margin-bottom: 20px;
-  font-weight: bolder;
-  cursor: default;
-
-  animation: fadeIn3 ease 2s forwards 1;
-  -webkit-animation: fadeIn3 ease 2s forwards 1;
-  -moz-animation: fadeIn3 ease 2s;
-  -o-animation: fadeIn3 ease 2s;
-  -ms-animation: fadeIn3 ease 2s;
-  animation-delay: 6s;
-}
-@keyframes fadeIn3 {
-  0% {
-    opacity: 0;
+  @keyframes fadeInH1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #c8cbd4;
+    }
   }
-  100% {
-    opacity: 1;
-    color: #9e91f2;
+
+  .intro3 {
+    color: transparent;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+
+    animation: fadeInH2 ease 2s forwards 1;
+    -webkit-animation: fadeInH2 ease 2s forwards 1;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeInH2 ease 2s;
+    animation-delay: 4s;
   }
-}
-
-.readMore {
-  padding: 10px;
-
-  color: transparent;
-  transition: all 0.2s ease-in-out;
-
-  animation: fadeIn4 ease 2s forwards 1;
-  -webkit-animation: fadeIn4 ease 2s forwards 1;
-  -moz-animation: fadeIn4 ease 2s;
-  -o-animation: fadeIn4 ease 2s;
-  -ms-animation: fadeIn4 ease 2s;
-  animation-delay: 6s;
-}
-@keyframes fadeIn4 {
-  0% {
-    opacity: 0;
+  @keyframes fadeInH2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #9e91f2;
+    }
   }
-  100% {
-    opacity: 1;
-    color: #f28599;
-    border: solid 1px #f28599;
-    text-decoration: none;
-    transform: scale(1.1);
+
+  .shortBio {
+    color: transparent;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: default;
+
+    animation: fadeIn3 ease 2s forwards 1;
+    -webkit-animation: fadeIn3 ease 2s forwards 1;
+    -moz-animation: fadeIn3 ease 2s;
+    -o-animation: fadeIn3 ease 2s;
+    -ms-animation: fadeIn3 ease 2s;
+    animation-delay: 6s;
+  }
+  @keyframes fadeIn3 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #9e91f2;
+    }
+  }
+
+  .readMore {
+    padding: 10px;
+
+    color: transparent;
+    transition: all 0.2s ease-in-out;
+
+    animation: fadeIn4 ease 2s forwards 1;
+    -webkit-animation: fadeIn4 ease 2s forwards 1;
+    -moz-animation: fadeIn4 ease 2s;
+    -o-animation: fadeIn4 ease 2s;
+    -ms-animation: fadeIn4 ease 2s;
+    animation-delay: 6s;
+  }
+  @keyframes fadeIn4 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #f28599;
+      border: solid 1px #f28599;
+      text-decoration: none;
+      transform: scale(1.1);
+    }
+  }
+  .homeComponent {
+    background-color: transparent;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
   }
 }

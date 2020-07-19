@@ -1,53 +1,97 @@
+@media only screen and (max-width: 600px) {
+  .about {
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-template-rows: 5vh;
+    column-gap: 15px;
+    row-gap: 5px;
+    text-align: left;
+    top: 20vh;
+    left: 20vw;
+    position: relative;
+    width: 20vw;
+  }
+  .aboutMe {
+    color: #c8cbd4;
+    font-size: 4vh;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .bio {
+    color: #9e91f2;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bolder;
+    cursor: default;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.3vh;
+  }
+  .headshot {
+    height: 25vh;
+    width: auto;
+    top: 15px;
+    grid-column: 1;
+    grid-row: 3;
+    border: #9e91f2 4px solid;
+  }
+}
 .aboutMeComponent {
   background-color: transparent;
   position: absolute;
   padding: 0;
   margin: 0;
 
-  top: 99vh;
+  top: 100vh;
   left: 0;
 
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
   scroll-snap-align: start;
 }
 
-.about {
-  display: grid;
-  grid-template-columns: 55vh 55vh;
-  grid-template-rows: 10vh 10vh;
-  column-gap: 15px;
-  row-gap: 5px;
-  text-align: left;
-  top: 30vh;
-  left: 46vh;
-  position: relative;
-  width: 55vh;
-}
+@media only screen and (min-width: 600px) {
+  .about {
+    display: grid;
+    grid-template-columns: 55vh 55vh;
+    grid-template-rows: 10vh 10vh;
+    column-gap: 15px;
+    row-gap: 5px;
+    text-align: left;
+    top: 30vh;
+    left: 46vh;
+    position: relative;
+    width: 55vh;
+  }
 
-.aboutMe {
-  color: #c8cbd4;
-  font-size: 6vh;
-  margin: 0;
-  font-weight: bolder;
-  cursor: default;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
+  .aboutMe {
+    color: #c8cbd4;
+    font-size: 6vh;
+    margin: 0;
+    font-weight: bolder;
+    cursor: default;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 
-.bio {
-  color: #9e91f2;
-  margin-top: 14px;
-  margin-bottom: 20px;
-  font-weight: bolder;
-  cursor: default;
-  grid-column: 1/2;
-  grid-row: 2/2;
-}
-.headshot {
-  height: 45vh;
-  width: auto;
-  grid-column: 2/2;
-  grid-row: 1/2;
-  border: #9e91f2 4px solid;
+  .bio {
+    color: #9e91f2;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    cursor: default;
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+  .headshot {
+    height: 45vh;
+    width: auto;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    border: #9e91f2 4px solid;
+  }
 }
