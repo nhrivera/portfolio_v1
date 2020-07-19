@@ -1,79 +1,162 @@
-.contactComponent {
-  background-color: transparent;
-  position: absolute;
-  padding: 0;
-  margin: 0;
+@media only screen and (max-width: 600px) {
+  .contactComponent {
+    background-color: transparent;
+    position: absolute;
+    padding: 0;
+    margin: 0;
 
-  top: 297vh;
-  left: 0;
+    top: 300vh;
+    left: 0;
 
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-align: start;
-}
-.contactContainer {
-  background-color: transparent;
-  margin: 0 auto;
-  top: 8%;
-  -ms-transform: translateY(8%);
-  transform: translateY(8%);
-  position: relative;
-}
+    width: 95vw;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  .contactContainer {
+    background-color: transparent;
+    margin: 0 auto;
+    top: 8%;
+    -ms-transform: translateY(8%);
+    transform: translateY(8%);
+    position: relative;
+    left: 5vw;
+  }
 
-.header {
-  color: #c8cbd4;
-  background-color: transparent;
-  margin: 0;
-}
+  .header {
+    color: #c8cbd4;
+    background-color: transparent;
+    margin: 0;
+  }
 
-.subHead {
-  color: #9e91f2;
-  background-color: transparent;
-  font-size: 1.5vh;
-  margin-top: 0;
-}
+  .subHead {
+    color: #9e91f2;
+    background-color: transparent;
+    font-size: 1.5vh;
+    margin-top: 0;
+    width: 60vw;
+  }
 
-input[type="text"],
-textarea {
-  width: 100%;
-  font-size: 1.2rem;
-  padding: 3px;
-  margin: 6px 0;
-  border: 1px solid black;
-  background-color: white;
-}
+  div .form-input {
+    width: 60vw;
+  }
 
-textarea {
-  resize: none;
-}
-
-form {
-  background-color: transparent;
-  width: 1000px;
-  margin: 0 auto; /*centers everything within the form*/
-  color: #9e91f2;
-}
-
-button {
-  color: #f28599;
-  border: solid 1px #f28599;
-  background-color: transparent;
-  padding: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-button:hover {
-  transform: scale(1.1);
-}
-
-.form-input {
-  margin: 10px 0;
-  background-color: transparent;
-}
-
-@media only screen and (max-width: 1020px) {
   form {
+    width: 60vw;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 60vw;
+    font-size: 1.2rem;
+    padding: 3px;
+    margin: 6px 0;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  form {
+    background-color: transparent;
+    width: 60vw;
+    margin: 0 auto; /*centers everything within the form*/
+    color: #9e91f2;
+  }
+
+  button {
+    color: #f28599;
+    border: solid 1px #f28599;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .form-input {
+    margin: 10px 0;
+    background-color: transparent;
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contactComponent {
+    background-color: transparent;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    top: 297vh;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  .contactContainer {
+    background-color: transparent;
+    margin: 0 auto;
+    top: 8%;
+    -ms-transform: translateY(8%);
+    transform: translateY(8%);
+    position: relative;
+  }
+
+  .header {
+    color: #c8cbd4;
+    background-color: transparent;
+    margin: 0;
+  }
+
+  .subHead {
+    color: #9e91f2;
+    background-color: transparent;
+    font-size: 1.5vh;
+    margin-top: 0;
+  }
+
+  input[type="text"],
+  textarea {
     width: 100%;
+    font-size: 1.2rem;
+    padding: 3px;
+    margin: 6px 0;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  form {
+    background-color: transparent;
+    width: 1000px;
+    margin: 0 auto; /*centers everything within the form*/
+    color: #9e91f2;
+  }
+
+  button {
+    color: #f28599;
+    border: solid 1px #f28599;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .form-input {
+    margin: 10px 0;
+    background-color: transparent;
   }
 }

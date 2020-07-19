@@ -12,6 +12,7 @@ toggle between hiding and showing the dropdown content */
     array.splice(num, 1);
     console.log(array);
     document.getElementById(`${num}`).classList.toggle("show");
+
     array.map((x) =>
       document.getElementsByClassName(`dropbtn`)[x].classList.toggle("hide")
     );

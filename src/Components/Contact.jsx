@@ -11,10 +11,8 @@ const Contact = () => {
             Feel free to ask me any questions. I'll respond as soon as possible!
           </p>
           <div className="form-input">
-            <label>
-              Email
-              <input type="text" name="_replyto" />
-            </label>
+            <label>Email</label>
+            <input type="text" name="_replyto" />
           </div>
           <div className="form-input">
             <label for="your_name">Name</label>
