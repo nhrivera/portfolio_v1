@@ -11,6 +11,7 @@
     width: 95vw;
     height: 100vh;
     scroll-snap-align: start;
+    z-index: 0;
   }
 
   .projectHeader {
@@ -35,6 +36,11 @@
     color: white;
   }
 
+  .dropbtn:focus {
+    background-color: #f28599;
+    color: white;
+  }
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     top: 20vh;
@@ -42,7 +48,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 57vw;
+    width: 60vw;
   }
 
   /* Dropdown Content (Hidden by Default) */
@@ -52,8 +58,7 @@
     background-color: #191b40;
     color: #f28599;
     border: 1px solid #f28599;
-    min-width: 160px;
-    z-index: 1;
+    width: 59.5vw;
   }
 
   /* Links inside the dropdown */
@@ -84,7 +89,7 @@
     text-align: left;
     font-size: 1.5vh;
     color: #9e91f2;
-    width: 52vw;
+    width: 55vw;
   }
 
   .projectImg {
