@@ -65,7 +65,7 @@
     color: #9e91f2;
   }
 
-  button {
+  .contactComponent button {
     color: #f28599;
     border: solid 1px #f28599;
     background-color: transparent;
@@ -74,7 +74,7 @@
     cursor: pointer;
   }
 
-  button:hover {
+  .contactComponent button:hover {
     transform: scale(1.1);
   }
 
@@ -142,7 +142,7 @@
     color: #9e91f2;
   }
 
-  button {
+  .contactComponent button {
     color: #f28599;
     border: solid 1px #f28599;
     background-color: transparent;
@@ -151,7 +151,7 @@
     cursor: pointer;
   }
 
-  button:hover {
+  .contactComponent button:hover {
     transform: scale(1.1);
   }
 
