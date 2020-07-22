@@ -15,17 +15,17 @@ const Contact = () => {
             <input type="text" name="_replyto" />
           </div>
           <div className="form-input">
-            <label for="your_name">Name</label>
+            <label htmlFor="your_name">Name</label>
             <input
               id="your_name"
               type="text"
               name="your_name"
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
 
           <div className="form-input">
-            <label for="your_message">Message</label>
+            <label htmlFor="your_message">Message</label>
             <textarea
               name="your_message"
               id="your_message"

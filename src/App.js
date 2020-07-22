@@ -10,14 +10,14 @@ import Social from "./Components/Social";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navigation />
       <Home />
       <AboutMe />
       <Projects />
       <Contact />
       <Social />
-    </>
+    </div>
   );
 };
 
