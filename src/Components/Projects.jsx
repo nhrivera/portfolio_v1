@@ -48,14 +48,19 @@ toggle between hiding and showing the dropdown content */
             owners to manage their work, including a clients list, appointment
             creator for clients to set their appointment date and a calendar
             with all appointments scheduled.
-            <p className="tech">
-              Technologies used: MongoDB, Express, React, Node.js, bootstrap,
-              Fullcalendar, bcryptjs, moment
-            </p>
+            <br />
+            <br />
+            Technologies used: MongoDB, Express, React, Node.js, bootstrap,
+            Fullcalendar, bcryptjs, moment
           </p>
 
           <img src={smartAgenda} alt="Smart Agenda" className="projectImg" />
-          <a href="https://smartagenda-wyncode.herokuapp.com/" className="url">
+          <a
+            href="https://smartagenda-wyncode.herokuapp.com/"
+            className="url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Visit Smart Agenda
           </a>
         </div>
@@ -69,13 +74,19 @@ toggle between hiding and showing the dropdown content */
             find new books to read (including free or paid books) with the
             options of a simple search of a word/phrase or a random book result
             using the random book tab.
-            <p className="tech">
-              Technologies used: React, Node.js, google books API, Bootstrap,
-              Faker.js
-            </p>
+            <br />
+            <br />
+            Technologies used: React, Node.js, google books API, Bootstrap,
+            Faker.js
           </p>
+
           <img src={quaranRead} alt="quaranRead" className="projectImg" />
-          <a href="https://quaranread.herokuapp.com/" className="url">
+          <a
+            href="https://quaranread.herokuapp.com/"
+            className="url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Visit QuaranRead
           </a>
         </div>
@@ -87,12 +98,18 @@ toggle between hiding and showing the dropdown content */
             A simple javascript game that runs on the Terminal. The objective of
             this game is for the player to guess the name of the song with the
             lyrics given. The player only has three tries before the game ends.
-            <p className="tech">
-              Technologies used: Javasctipt, node.js, Readline-sync
-            </p>
+            <br />
+            <br />
+            Technologies used: Javasctipt, node.js, Readline-sync
           </p>
+
           <img src={GTS} alt="Guess That Song" className="projectImg" />
-          <a href="https://github.com/nhrivera/guess_that_song" className="url">
+          <a
+            href="https://github.com/nhrivera/guess_that_song"
+            className="url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github Repo Link
           </a>
         </div>
